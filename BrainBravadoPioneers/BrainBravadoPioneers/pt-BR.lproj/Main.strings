@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "Find Words"; ObjectID = "1j8-wI-EX4"; */
+"1j8-wI-EX4.text" = "Find Words";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2Gb-sm-pv1"; */
+"2Gb-sm-pv1.text" = "Label";
+
+/* Class = "UITextView"; text = "We are committed to protecting the privacy of our users. This Privacy Policy outlines how we collect, use, disclose, and store personal information obtained through Application (\"Parallel Pathways\"). By using the App, you consent to the practices described in this Privacy Policy.\n\nInformation Collection and Use:\n\nPersonal Information: The App does not collect or store any personal information from its users. No personally identifiable information is required or accessed during the use of the App.\nNon-Personal Information: The App may collect non-personal information such as device information, operating system, and usage statistics. This information is used to improve the App's functionality and provide a better user experience.\nInformation Sharing and Disclosure:\n\nThird-Party Service Providers: We may engage trusted third-party service providers to assist in the operation and maintenance of the App. These service providers are obligated to maintain the confidentiality and security of any information they receive.\nLegal Compliance: We may disclose information if required to do so by law or in response to valid requests by public authorities.\nData Security:\n\nWe take reasonable measures to protect the information collected through the App from unauthorized access, disclosure, alteration, or destruction. However, no data transmission over the internet or storage method is 100% secure. Therefore, we cannot guarantee absolute security.\nChildren's Privacy:\n\nThe App is not intended for use by individuals under the age of 13. We do not knowingly collect personal information from children. If we become aware that personal information of a child under 13 has been collected, we will take immediate steps to delete it.\nChanges to Privacy Policy:\n\nWe may update this Privacy Policy from time to time. Any changes will be effective upon posting the revised policy. We encourage users to review the Privacy Policy periodically.\nContact Us:\n\nIf you have any questions or concerns about this Privacy Policy or the App's practices, please contact us at [contact information].\nBy using the Parallel Pathways, you acknowledge that you have read and understood this Privacy Policy and agree to its terms."; ObjectID = "5mr-sH-pzD"; */
+"5mr-sH-pzD.text" = "We are committed to protecting the privacy of our users. This Privacy Policy outlines how we collect, use, disclose, and store personal information obtained through Application (\"Parallel Pathways\"). By using the App, you consent to the practices described in this Privacy Policy.\n\nInformation Collection and Use:\n\nPersonal Information: The App does not collect or store any personal information from its users. No personally identifiable information is required or accessed during the use of the App.\nNon-Personal Information: The App may collect non-personal information such as device information, operating system, and usage statistics. This information is used to improve the App's functionality and provide a better user experience.\nInformation Sharing and Disclosure:\n\nThird-Party Service Providers: We may engage trusted third-party service providers to assist in the operation and maintenance of the App. These service providers are obligated to maintain the confidentiality and security of any information they receive.\nLegal Compliance: We may disclose information if required to do so by law or in response to valid requests by public authorities.\nData Security:\n\nWe take reasonable measures to protect the information collected through the App from unauthorized access, disclosure, alteration, or destruction. However, no data transmission over the internet or storage method is 100% secure. Therefore, we cannot guarantee absolute security.\nChildren's Privacy:\n\nThe App is not intended for use by individuals under the age of 13. We do not knowingly collect personal information from children. If we become aware that personal information of a child under 13 has been collected, we will take immediate steps to delete it.\nChanges to Privacy Policy:\n\nWe may update this Privacy Policy from time to time. Any changes will be effective upon posting the revised policy. We encourage users to review the Privacy Policy periodically.\nContact Us:\n\nIf you have any questions or concerns about this Privacy Policy or the App's practices, please contact us at [contact information].\nBy using the Parallel Pathways, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.";
+
+/* Class = "UIButton"; normalTitle = "Clear"; ObjectID = "6dd-Hs-TgR"; */
+"6dd-Hs-TgR.normalTitle" = "Clear";
+
+/* Class = "UILabel"; text = "History"; ObjectID = "8NZ-NK-gg7"; */
+"8NZ-NK-gg7.text" = "History";
+
+/* Class = "UIButton"; normalTitle = "Restart"; ObjectID = "BAh-ih-5iU"; */
+"BAh-ih-5iU.normalTitle" = "Restart";
+
+/* Class = "UILabel"; text = "START GAME"; ObjectID = "Crv-Ih-Pc4"; */
+"Crv-Ih-Pc4.text" = "START GAME";
+
+/* Class = "UILabel"; text = "Setting "; ObjectID = "Czq-D8-oSi"; */
+"Czq-D8-oSi.text" = "Setting ";
+
+/* Class = "UILabel"; text = "BrainBravado Pioneers"; ObjectID = "INm-Lz-LMt"; */
+"INm-Lz-LMt.text" = "BrainBravado Pioneers";
+
+/* Class = "UIButton"; normalTitle = "Home"; ObjectID = "LhP-Vw-8XZ"; */
+"LhP-Vw-8XZ.normalTitle" = "Home";
+
+/* Class = "UILabel"; text = "BrainBravado Pioneers"; ObjectID = "Lta-34-v6e"; */
+"Lta-34-v6e.text" = "BrainBravado Pioneers";
+
+/* Class = "UILabel"; text = "Terms"; ObjectID = "VVm-mS-oDi"; */
+"VVm-mS-oDi.text" = "Terms";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "VdZ-4v-Rw2"; */
+"VdZ-4v-Rw2.normalTitle" = "Submit";
+
+/* Class = "UIButton"; normalTitle = "Home"; ObjectID = "WBO-8y-Bq0"; */
+"WBO-8y-Bq0.normalTitle" = "Home";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bQV-Kj-7Yz"; */
+"bQV-Kj-7Yz.text" = "Label";
+
+/* Class = "UILabel"; text = "Set Grid"; ObjectID = "coa-FY-3l8"; */
+"coa-FY-3l8.text" = "Set Grid";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "obn-Ib-FVG"; */
+"obn-Ib-FVG.text" = "Label";
