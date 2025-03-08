@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BravadoScoreHistoryCell" rowHeight="157" id="oP1-Ok-rei" customClass="BravadoScoreHistoryCell" customModule="BrainBravado_Pioneers" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="242" height="157"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="oP1-Ok-rei" id="fCC-UG-LT7">
+                <rect key="frame" x="0.0" y="0.0" width="242" height="157"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ta-PP-j2i">
+                        <rect key="frame" x="0.0" y="0.0" width="242" height="120"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mzW-9B-G7h">
+                                <rect key="frame" x="0.0" y="0.0" width="242" height="100"/>
+                                <color key="backgroundColor" red="0.45847596270000002" green="0.67094534589999999" blue="0.73659743479999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="M5j-Qk-Cf0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="20"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="mzW-9B-G7h" firstAttribute="leading" secondItem="5Ta-PP-j2i" secondAttribute="leading" id="QAk-xG-mJY"/>
+                            <constraint firstAttribute="trailing" secondItem="mzW-9B-G7h" secondAttribute="trailing" id="rGk-fo-v1g"/>
+                            <constraint firstAttribute="height" constant="120" id="sd2-Hz-j5n"/>
+                            <constraint firstItem="mzW-9B-G7h" firstAttribute="top" secondItem="5Ta-PP-j2i" secondAttribute="top" id="v5H-0D-cg9"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="5Ta-PP-j2i" firstAttribute="top" secondItem="fCC-UG-LT7" secondAttribute="top" id="Uyv-G8-n6p"/>
+                    <constraint firstAttribute="trailing" secondItem="5Ta-PP-j2i" secondAttribute="trailing" id="abu-jY-0Aa"/>
+                    <constraint firstAttribute="bottom" secondItem="5Ta-PP-j2i" secondAttribute="bottom" id="der-4R-nkU"/>
+                    <constraint firstItem="5Ta-PP-j2i" firstAttribute="leading" secondItem="fCC-UG-LT7" secondAttribute="leading" id="gA2-F3-yJ8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="Up5-Iy-oPC"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="scoreLabel" destination="mzW-9B-G7h" id="6Zv-Ba-drg"/>
+            </connections>
+            <point key="canvasLocation" x="-77.862595419847324" y="28.52112676056338"/>
+        </tableViewCell>
+    </objects>
+</document>

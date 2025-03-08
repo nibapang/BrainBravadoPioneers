@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		890BBC87CB8998A7A849E81A /* Pods_BrainBravadoPioneers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E37A9B66E88A689FF532B54 /* Pods_BrainBravadoPioneers.framework */; };
+		E90914DC2D7BCD9D001F98EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90914DB2D7BCD9D001F98EE /* AppDelegate.swift */; };
+		E90914DE2D7BCD9D001F98EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90914DD2D7BCD9D001F98EE /* SceneDelegate.swift */; };
+		E90914E02D7BCD9D001F98EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90914DF2D7BCD9D001F98EE /* ViewController.swift */; };
+		E90914E32D7BCD9D001F98EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90914E12D7BCD9D001F98EE /* Main.storyboard */; };
+		E90914E52D7BCDA0001F98EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90914E42D7BCDA0001F98EE /* Assets.xcassets */; };
+		E90914E82D7BCDA0001F98EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90914E62D7BCDA0001F98EE /* LaunchScreen.storyboard */; };
+		E90914F32D7BCDA0001F98EE /* BrainBravadoPioneersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90914F22D7BCDA0001F98EE /* BrainBravadoPioneersTests.swift */; };
+		E90914FD2D7BCDA0001F98EE /* BrainBravadoPioneersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90914FC2D7BCDA0001F98EE /* BrainBravadoPioneersUITests.swift */; };
+		E90914FF2D7BCDA0001F98EE /* BrainBravadoPioneersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90914FE2D7BCDA0001F98EE /* BrainBravadoPioneersUITestsLaunchTests.swift */; };
+		E909150C2D7BCF70001F98EE /* BravadoMatchedSquareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E909150B2D7BCF70001F98EE /* BravadoMatchedSquareVC.swift */; };
+		E909150E2D7BCF90001F98EE /* BravadoAlphabetGridGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E909150D2D7BCF90001F98EE /* BravadoAlphabetGridGameVC.swift */; };
+		E90915112D7BCFB2001F98EE /* BravadoScoreHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E909150F2D7BCFB2001F98EE /* BravadoScoreHistoryCell.swift */; };
+		E90915122D7BCFB2001F98EE /* BravadoScoreHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E90915102D7BCFB2001F98EE /* BravadoScoreHistoryCell.xib */; };
+		E90915152D7BCFE4001F98EE /* BravadoAlphabetBravadoGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90915132D7BCFE4001F98EE /* BravadoAlphabetBravadoGridCell.swift */; };
+		E90915162D7BCFE4001F98EE /* BravadoAlphabetBravadoGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E90915142D7BCFE4001F98EE /* BravadoAlphabetBravadoGridCell.xib */; };
+		E90915182D7BD00C001F98EE /* BravadoExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90915172D7BD00C001F98EE /* BravadoExt.swift */; };
+		E909151A2D7BD033001F98EE /* BravadoScoreHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90915192D7BD033001F98EE /* BravadoScoreHistoryVC.swift */; };
+		E909151D2D7BD056001F98EE /* BravadoGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E909151B2D7BD056001F98EE /* BravadoGridCell.swift */; };
+		E909151E2D7BD056001F98EE /* BravadoGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E909151C2D7BD056001F98EE /* BravadoGridCell.xib */; };
+		E90915202D7BD088001F98EE /* BravadoSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E909151F2D7BD088001F98EE /* BravadoSettingVC.swift */; };
+		E92F6E262D7BDE6000288097 /* BravadoPrivacyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92F6E252D7BDE6000288097 /* BravadoPrivacyVC.swift */; };
+		E92F6E2A2D7BDE7B00288097 /* UIViewController+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = E92F6E292D7BDE7B00288097 /* UIViewController+Tool.m */; };
+		E92F6E2D2D7BE83E00288097 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E92F6E2C2D7BE83E00288097 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E90914EF2D7BCDA0001F98EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E90914D02D7BCD9D001F98EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E90914D72D7BCD9D001F98EE;
+			remoteInfo = BrainBravadoPioneers;
+		};
+		E90914F92D7BCDA0001F98EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E90914D02D7BCD9D001F98EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E90914D72D7BCD9D001F98EE;
+			remoteInfo = BrainBravadoPioneers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BA4B2687612740DF7CA301A /* Pods-BrainBravadoPioneers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainBravadoPioneers.release.xcconfig"; path = "Target Support Files/Pods-BrainBravadoPioneers/Pods-BrainBravadoPioneers.release.xcconfig"; sourceTree = "<group>"; };
+		3E37A9B66E88A689FF532B54 /* Pods_BrainBravadoPioneers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrainBravadoPioneers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C7E6013B483B034D0C8CEE /* Pods-BrainBravadoPioneers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainBravadoPioneers.debug.xcconfig"; path = "Target Support Files/Pods-BrainBravadoPioneers/Pods-BrainBravadoPioneers.debug.xcconfig"; sourceTree = "<group>"; };
+		E90914D82D7BCD9D001F98EE /* BrainBravadoPioneers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainBravadoPioneers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90914DB2D7BCD9D001F98EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E90914DD2D7BCD9D001F98EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E90914DF2D7BCD9D001F98EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E90914E22D7BCD9D001F98EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E90914E42D7BCDA0001F98EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E90914E72D7BCDA0001F98EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E90914E92D7BCDA0001F98EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90914EE2D7BCDA0001F98EE /* BrainBravadoPioneersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainBravadoPioneersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90914F22D7BCDA0001F98EE /* BrainBravadoPioneersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainBravadoPioneersTests.swift; sourceTree = "<group>"; };
+		E90914F82D7BCDA0001F98EE /* BrainBravadoPioneersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainBravadoPioneersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90914FC2D7BCDA0001F98EE /* BrainBravadoPioneersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainBravadoPioneersUITests.swift; sourceTree = "<group>"; };
+		E90914FE2D7BCDA0001F98EE /* BrainBravadoPioneersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainBravadoPioneersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E909150B2D7BCF70001F98EE /* BravadoMatchedSquareVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BravadoMatchedSquareVC.swift; sourceTree = "<group>"; };
+		E909150D2D7BCF90001F98EE /* BravadoAlphabetGridGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BravadoAlphabetGridGameVC.swift; sourceTree = "<group>"; };
+		E909150F2D7BCFB2001F98EE /* BravadoScoreHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BravadoScoreHistoryCell.swift; sourceTree = "<group>"; };
+		E90915102D7BCFB2001F98EE /* BravadoScoreHistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BravadoScoreHistoryCell.xib; sourceTree = "<group>"; };
+		E90915132D7BCFE4001F98EE /* BravadoAlphabetBravadoGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BravadoAlphabetBravadoGridCell.swift; sourceTree = "<group>"; };
+		E90915142D7BCFE4001F98EE /* BravadoAlphabetBravadoGridCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BravadoAlphabetBravadoGridCell.xib; sourceTree = "<group>"; };
+		E90915172D7BD00C001F98EE /* BravadoExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BravadoExt.swift; sourceTree = "<group>"; };
+		E90915192D7BD033001F98EE /* BravadoScoreHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BravadoScoreHistoryVC.swift; sourceTree = "<group>"; };
+		E909151B2D7BD056001F98EE /* BravadoGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BravadoGridCell.swift; sourceTree = "<group>"; };
+		E909151C2D7BD056001F98EE /* BravadoGridCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BravadoGridCell.xib; sourceTree = "<group>"; };
+		E909151F2D7BD088001F98EE /* BravadoSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BravadoSettingVC.swift; sourceTree = "<group>"; };
+		E92F6E252D7BDE6000288097 /* BravadoPrivacyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BravadoPrivacyVC.swift; sourceTree = "<group>"; };
+		E92F6E272D7BDE7B00288097 /* BrainBravadoPioneers-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrainBravadoPioneers-Bridging-Header.h"; sourceTree = "<group>"; };
+		E92F6E282D7BDE7B00288097 /* UIViewController+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tool.h"; sourceTree = "<group>"; };
+		E92F6E292D7BDE7B00288097 /* UIViewController+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tool.m"; sourceTree = "<group>"; };
+		E92F6E2B2D7BDF4B00288097 /* BrainBravadoPioneers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BrainBravadoPioneers.entitlements; sourceTree = "<group>"; };
+		E92F6E2C2D7BE83E00288097 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E90914D52D7BCD9D001F98EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890BBC87CB8998A7A849E81A /* Pods_BrainBravadoPioneers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90914EB2D7BCDA0001F98EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90914F52D7BCDA0001F98EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07422DD06912AB26E4A7DAEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E37A9B66E88A689FF532B54 /* Pods_BrainBravadoPioneers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D29E131418E5D44E83899D51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72C7E6013B483B034D0C8CEE /* Pods-BrainBravadoPioneers.debug.xcconfig */,
+				0BA4B2687612740DF7CA301A /* Pods-BrainBravadoPioneers.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E90914CF2D7BCD9D001F98EE = {
+			isa = PBXGroup;
+			children = (
+				E90914DA2D7BCD9D001F98EE /* BrainBravadoPioneers */,
+				E90914F12D7BCDA0001F98EE /* BrainBravadoPioneersTests */,
+				E90914FB2D7BCDA0001F98EE /* BrainBravadoPioneersUITests */,
+				E90914D92D7BCD9D001F98EE /* Products */,
+				D29E131418E5D44E83899D51 /* Pods */,
+				07422DD06912AB26E4A7DAEF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E90914D92D7BCD9D001F98EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E90914D82D7BCD9D001F98EE /* BrainBravadoPioneers.app */,
+				E90914EE2D7BCDA0001F98EE /* BrainBravadoPioneersTests.xctest */,
+				E90914F82D7BCDA0001F98EE /* BrainBravadoPioneersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E90914DA2D7BCD9D001F98EE /* BrainBravadoPioneers */ = {
+			isa = PBXGroup;
+			children = (
+				E92F6E2C2D7BE83E00288097 /* GoogleService-Info.plist */,
+				E92F6E2B2D7BDF4B00288097 /* BrainBravadoPioneers.entitlements */,
+				E90914DB2D7BCD9D001F98EE /* AppDelegate.swift */,
+				E90914DD2D7BCD9D001F98EE /* SceneDelegate.swift */,
+				E90914DF2D7BCD9D001F98EE /* ViewController.swift */,
+				E909150B2D7BCF70001F98EE /* BravadoMatchedSquareVC.swift */,
+				E909150D2D7BCF90001F98EE /* BravadoAlphabetGridGameVC.swift */,
+				E909150F2D7BCFB2001F98EE /* BravadoScoreHistoryCell.swift */,
+				E90915102D7BCFB2001F98EE /* BravadoScoreHistoryCell.xib */,
+				E90915132D7BCFE4001F98EE /* BravadoAlphabetBravadoGridCell.swift */,
+				E90915142D7BCFE4001F98EE /* BravadoAlphabetBravadoGridCell.xib */,
+				E90915172D7BD00C001F98EE /* BravadoExt.swift */,
+				E90915192D7BD033001F98EE /* BravadoScoreHistoryVC.swift */,
+				E909151B2D7BD056001F98EE /* BravadoGridCell.swift */,
+				E909151C2D7BD056001F98EE /* BravadoGridCell.xib */,
+				E909151F2D7BD088001F98EE /* BravadoSettingVC.swift */,
+				E92F6E252D7BDE6000288097 /* BravadoPrivacyVC.swift */,
+				E92F6E282D7BDE7B00288097 /* UIViewController+Tool.h */,
+				E92F6E292D7BDE7B00288097 /* UIViewController+Tool.m */,
+				E90914E12D7BCD9D001F98EE /* Main.storyboard */,
+				E90914E42D7BCDA0001F98EE /* Assets.xcassets */,
+				E90914E62D7BCDA0001F98EE /* LaunchScreen.storyboard */,
+				E90914E92D7BCDA0001F98EE /* Info.plist */,
+				E92F6E272D7BDE7B00288097 /* BrainBravadoPioneers-Bridging-Header.h */,
+			);
+			path = BrainBravadoPioneers;
+			sourceTree = "<group>";
+		};
+		E90914F12D7BCDA0001F98EE /* BrainBravadoPioneersTests */ = {
+			isa = PBXGroup;
+			children = (
+				E90914F22D7BCDA0001F98EE /* BrainBravadoPioneersTests.swift */,
+			);
+			path = BrainBravadoPioneersTests;
+			sourceTree = "<group>";
+		};
+		E90914FB2D7BCDA0001F98EE /* BrainBravadoPioneersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E90914FC2D7BCDA0001F98EE /* BrainBravadoPioneersUITests.swift */,
+				E90914FE2D7BCDA0001F98EE /* BrainBravadoPioneersUITestsLaunchTests.swift */,
+			);
+			path = BrainBravadoPioneersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E90914D72D7BCD9D001F98EE /* BrainBravadoPioneers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90915022D7BCDA0001F98EE /* Build configuration list for PBXNativeTarget "BrainBravadoPioneers" */;
+			buildPhases = (
+				95890F76482BD342F992CE69 /* [CP] Check Pods Manifest.lock */,
+				E90914D42D7BCD9D001F98EE /* Sources */,
+				E90914D52D7BCD9D001F98EE /* Frameworks */,
+				E90914D62D7BCD9D001F98EE /* Resources */,
+				A164A5154BA4AF45A5587111 /* [CP] Embed Pods Frameworks */,
+				DF5288A11F8CDEDF025E458D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrainBravadoPioneers;
+			productName = BrainBravadoPioneers;
+			productReference = E90914D82D7BCD9D001F98EE /* BrainBravadoPioneers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E90914ED2D7BCDA0001F98EE /* BrainBravadoPioneersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90915052D7BCDA0001F98EE /* Build configuration list for PBXNativeTarget "BrainBravadoPioneersTests" */;
+			buildPhases = (
+				E90914EA2D7BCDA0001F98EE /* Sources */,
+				E90914EB2D7BCDA0001F98EE /* Frameworks */,
+				E90914EC2D7BCDA0001F98EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E90914F02D7BCDA0001F98EE /* PBXTargetDependency */,
+			);
+			name = BrainBravadoPioneersTests;
+			productName = BrainBravadoPioneersTests;
+			productReference = E90914EE2D7BCDA0001F98EE /* BrainBravadoPioneersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E90914F72D7BCDA0001F98EE /* BrainBravadoPioneersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90915082D7BCDA0001F98EE /* Build configuration list for PBXNativeTarget "BrainBravadoPioneersUITests" */;
+			buildPhases = (
+				E90914F42D7BCDA0001F98EE /* Sources */,
+				E90914F52D7BCDA0001F98EE /* Frameworks */,
+				E90914F62D7BCDA0001F98EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E90914FA2D7BCDA0001F98EE /* PBXTargetDependency */,
+			);
+			name = BrainBravadoPioneersUITests;
+			productName = BrainBravadoPioneersUITests;
+			productReference = E90914F82D7BCDA0001F98EE /* BrainBravadoPioneersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E90914D02D7BCD9D001F98EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E90914D72D7BCD9D001F98EE = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					E90914ED2D7BCDA0001F98EE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E90914D72D7BCD9D001F98EE;
+					};
+					E90914F72D7BCDA0001F98EE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E90914D72D7BCD9D001F98EE;
+					};
+				};
+			};
+			buildConfigurationList = E90914D32D7BCD9D001F98EE /* Build configuration list for PBXProject "BrainBravadoPioneers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E90914CF2D7BCD9D001F98EE;
+			productRefGroup = E90914D92D7BCD9D001F98EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E90914D72D7BCD9D001F98EE /* BrainBravadoPioneers */,
+				E90914ED2D7BCDA0001F98EE /* BrainBravadoPioneersTests */,
+				E90914F72D7BCDA0001F98EE /* BrainBravadoPioneersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E90914D62D7BCD9D001F98EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90915162D7BCFE4001F98EE /* BravadoAlphabetBravadoGridCell.xib in Resources */,
+				E909151E2D7BD056001F98EE /* BravadoGridCell.xib in Resources */,
+				E90914E82D7BCDA0001F98EE /* LaunchScreen.storyboard in Resources */,
+				E90914E52D7BCDA0001F98EE /* Assets.xcassets in Resources */,
+				E90914E32D7BCD9D001F98EE /* Main.storyboard in Resources */,
+				E90915122D7BCFB2001F98EE /* BravadoScoreHistoryCell.xib in Resources */,
+				E92F6E2D2D7BE83E00288097 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90914EC2D7BCDA0001F98EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90914F62D7BCDA0001F98EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95890F76482BD342F992CE69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrainBravadoPioneers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A164A5154BA4AF45A5587111 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrainBravadoPioneers/Pods-BrainBravadoPioneers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrainBravadoPioneers/Pods-BrainBravadoPioneers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrainBravadoPioneers/Pods-BrainBravadoPioneers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF5288A11F8CDEDF025E458D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrainBravadoPioneers/Pods-BrainBravadoPioneers-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrainBravadoPioneers/Pods-BrainBravadoPioneers-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrainBravadoPioneers/Pods-BrainBravadoPioneers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E90914D42D7BCD9D001F98EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90914E02D7BCD9D001F98EE /* ViewController.swift in Sources */,
+				E909151A2D7BD033001F98EE /* BravadoScoreHistoryVC.swift in Sources */,
+				E90915112D7BCFB2001F98EE /* BravadoScoreHistoryCell.swift in Sources */,
+				E90915152D7BCFE4001F98EE /* BravadoAlphabetBravadoGridCell.swift in Sources */,
+				E90915182D7BD00C001F98EE /* BravadoExt.swift in Sources */,
+				E90914DC2D7BCD9D001F98EE /* AppDelegate.swift in Sources */,
+				E909150C2D7BCF70001F98EE /* BravadoMatchedSquareVC.swift in Sources */,
+				E92F6E262D7BDE6000288097 /* BravadoPrivacyVC.swift in Sources */,
+				E909150E2D7BCF90001F98EE /* BravadoAlphabetGridGameVC.swift in Sources */,
+				E90915202D7BD088001F98EE /* BravadoSettingVC.swift in Sources */,
+				E90914DE2D7BCD9D001F98EE /* SceneDelegate.swift in Sources */,
+				E92F6E2A2D7BDE7B00288097 /* UIViewController+Tool.m in Sources */,
+				E909151D2D7BD056001F98EE /* BravadoGridCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90914EA2D7BCDA0001F98EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90914F32D7BCDA0001F98EE /* BrainBravadoPioneersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90914F42D7BCDA0001F98EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90914FF2D7BCDA0001F98EE /* BrainBravadoPioneersUITestsLaunchTests.swift in Sources */,
+				E90914FD2D7BCDA0001F98EE /* BrainBravadoPioneersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E90914F02D7BCDA0001F98EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E90914D72D7BCD9D001F98EE /* BrainBravadoPioneers */;
+			targetProxy = E90914EF2D7BCDA0001F98EE /* PBXContainerItemProxy */;
+		};
+		E90914FA2D7BCDA0001F98EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E90914D72D7BCD9D001F98EE /* BrainBravadoPioneers */;
+			targetProxy = E90914F92D7BCDA0001F98EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E90914E12D7BCD9D001F98EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90914E22D7BCD9D001F98EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E90914E62D7BCDA0001F98EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90914E72D7BCDA0001F98EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E90915002D7BCDA0001F98EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E90915012D7BCDA0001F98EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E90915032D7BCDA0001F98EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C7E6013B483B034D0C8CEE /* Pods-BrainBravadoPioneers.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BrainBravadoPioneers/BrainBravadoPioneers.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BrainBravadoPioneers/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BrainBravado Pioneers";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.BrainBravadoPioneers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BrainBravadoPioneers/BrainBravadoPioneers-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E90915042D7BCDA0001F98EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BA4B2687612740DF7CA301A /* Pods-BrainBravadoPioneers.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BrainBravadoPioneers/BrainBravadoPioneers.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BrainBravadoPioneers/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BrainBravado Pioneers";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.BrainBravadoPioneers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BrainBravadoPioneers/BrainBravadoPioneers-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E90915062D7BCDA0001F98EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.BrainBravadoPioneersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrainBravadoPioneers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BrainBravadoPioneers";
+			};
+			name = Debug;
+		};
+		E90915072D7BCDA0001F98EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.BrainBravadoPioneersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrainBravadoPioneers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BrainBravadoPioneers";
+			};
+			name = Release;
+		};
+		E90915092D7BCDA0001F98EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.BrainBravadoPioneersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrainBravadoPioneers;
+			};
+			name = Debug;
+		};
+		E909150A2D7BCDA0001F98EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.BrainBravadoPioneersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrainBravadoPioneers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E90914D32D7BCD9D001F98EE /* Build configuration list for PBXProject "BrainBravadoPioneers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90915002D7BCDA0001F98EE /* Debug */,
+				E90915012D7BCDA0001F98EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90915022D7BCDA0001F98EE /* Build configuration list for PBXNativeTarget "BrainBravadoPioneers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90915032D7BCDA0001F98EE /* Debug */,
+				E90915042D7BCDA0001F98EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90915052D7BCDA0001F98EE /* Build configuration list for PBXNativeTarget "BrainBravadoPioneersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90915062D7BCDA0001F98EE /* Debug */,
+				E90915072D7BCDA0001F98EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90915082D7BCDA0001F98EE /* Build configuration list for PBXNativeTarget "BrainBravadoPioneersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90915092D7BCDA0001F98EE /* Debug */,
+				E909150A2D7BCDA0001F98EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E90914D02D7BCD9D001F98EE /* Project object */;
+}
